@@ -13,10 +13,8 @@ if (number % 2 === 0) {
 let firstNumber = 28 
 let secondNumber = 56
 
-if (firstNumber % secondNumber === 0 ) {
+if (firstNumber % secondNumber === 0 || secondNumber % firstNumber === 0) {
   console.log(1) 
-} else if(secondNumber % firstNumber === 0) {
-  console.log(1)
 } else {
   console.log(0)
 }
