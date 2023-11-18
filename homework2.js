@@ -19,6 +19,10 @@ while (absoluteNumber >= 1) {
 }
 
 console.log(count);
+
+
+
+
 //2
 let myNumber = 192999
 let count = 0
@@ -41,6 +45,7 @@ for (; myNumber > 0; myNumber = Math.floor(myNumber / 10)) {
 }
 
 console.log(`As a result, the count of digits 9 is : ${count}`)
+
 
 
 ///3
@@ -69,6 +74,8 @@ while (number <= 150) {
     }
     number++;
 }
+
+
 ///////4
 
 let originalNumber = 222
@@ -89,6 +96,7 @@ while (originalNumber > 0) {
 }
 
 console.log(result)
+
 
 
 ////5
